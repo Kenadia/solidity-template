@@ -1,0 +1,24 @@
+{
+  "name": "solidity-template",
+  "version": "1.0.0",
+  "description": "*“No one man should have all that power.”* \\- Kanye",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test tests/SolidityTemplate_test.js",
+    "ganache": "ganache-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenadia/solidity-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenadia/solidity-template/issues"
+  },
+  "homepage": "https://github.com/Kenadia/solidity-template#readme",
+  "dependencies": {
+    "ganache-cli": "^6.0.3",
+    "truffle": "^4.0.6"
+  }
+}
