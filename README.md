@@ -2,14 +2,23 @@
 
 Basic setup to get started writing smart contracts.
 
-## Development setup
-
-One-time setup:
+## One-time development setup
 
 ```
 PATH=$PATH:node_modules/.bin
 npm install
 truffle compile
+```
+
+In a tab, run:
+
+```
+npm run ganache
+```
+
+Then run:
+
+```
 truffle migrate
 ```
 
@@ -21,7 +30,7 @@ In a tab, run:
 npm run ganache
 ```
 
-With Ganache running separately, you can run the test cases with:
+Then run test cases with:
 
 ```
 npm run test
